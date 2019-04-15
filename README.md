@@ -7,6 +7,13 @@ You can add or remove players from a game and see all players scores and update 
 ## Technologies
   HTML, CSS, Bootstrap, JavaScipt, React, Axios, Rails
 
+## Planned tables and columns
+
+```md
+A users table with columns for username, email, password.
+A players table, with a column for name, score, wins, & loses.
+```
+
 ## Project Links
 1. [Client Deployed Site]()
 
