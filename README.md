@@ -35,6 +35,8 @@ A players table, with a column for name, score, wins, & loses.
 5. Test players resource with curl scripts.
 6. Add relationship to user.
 7. Add user ownership to recource controller.
+8. Troubleshoot/Debug
+9. Update Read me
 
 Throughout:
 1. Commit and Deploy often.
