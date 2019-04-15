@@ -1,5 +1,7 @@
-class PlayersController < ApplicationController
-  before_action :set_player, only: [:show, :update, :destroy]
+# frozen_string_literal: true
+
+class PlayersController < ProtectedController
+  before_action :set_player, only: %i[show update destroy]
 
   # GET /players
   def index
@@ -39,13 +41,14 @@ class PlayersController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_player
-      @player = Player.find(params[:id])
-    end
 
-    # Only allow a trusted parameter "white list" through.
-    def player_params
-      params.require(:player).permit(:name, :score, :wins, :loses)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_player
+    @player = Player.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def player_params
+    params.require(:player).permit(:name, :score, :wins, :loses)
+  end
 end
