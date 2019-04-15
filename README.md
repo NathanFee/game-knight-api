@@ -15,16 +15,16 @@ A players table, with a column for name, score, wins, & loses.
 ```
 
 ## Project Links
-1. [Client Deployed Site]()
+1. [Client Deployed Site](https://nathanfee.github.io/game-knight-client/#/)
 
-2. [Client Repository]()
+2. [Client Repository](https://github.com/NathanFee/game-knight-client)
 
-3. [API Deployed Site]()
+3. [API Deployed Site](https://game-knight-api.herokuapp.com/)
 
-4. [API Repository]()
+4. [API Repository](https://github.com/NathanFee/game-knight-api)
 
 ## ERD
-![ERD Diagram]()
+![ERD Diagram](https://i.imgur.com/hKgUTuD.png)
 
 ## Planning and Execution
 1. Create ERD.
