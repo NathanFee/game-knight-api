@@ -44,11 +44,11 @@ class PlayersController < OpenReadController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_player
-    @challenge = current_user.challenges.find(params[:id])
+    @player = Player.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.
   def player_params
-    params.require(:player).permit(:name, :score, :wins, :loses)
+    params.require(:player).permit(:id, :name, :score, :wins, :loses)
   end
 end
