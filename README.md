@@ -58,5 +58,5 @@ Players:
  * PATCH    /players/:id     playerss#update
  * DELETE /players/:id  playerss#destroy
 
-## Reach Goal
+## Reach Goal / Unsolved problem
 - Allow users to create a tournament bracket.
