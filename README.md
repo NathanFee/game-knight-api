@@ -42,9 +42,13 @@ Throughout:
 1. Commit and Deploy often.
 2. Take a 10min break every hour.
 
+## Problem-Solving Strategy
+1. Break the problem into smaller parts.
+2. Step away after attempting for more than a half hour.
+3. Talk it out with a peer.
+4. Utalized the issue que.
 
 ## Routes
-
 User:
  * POST /sign-up     users#signup
  * POST /sign-in     users#signin
