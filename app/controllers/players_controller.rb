@@ -1,23 +1,23 @@
 # frozen_string_literal: true
 
-class PlayersController < OpenReadController
+class PlayersController < ProtectedController
   before_action :set_player, only: %i[show update destroy]
 
   # GET /players
   def index
-    @players = Player.all
+    @players = current_user.players.all
 
     render json: @players
   end
 
   # GET /players/1
   def show
-    render json: @player
+    render json: Player.find(params[:id])
   end
 
   # POST /players
   def create
-    @player = current_user.players.build(player_params)
+    @player = current_user.players.new(player_params)
 
     if @player.save
       render json: @player, status: :created, location: @player
