@@ -26,6 +26,7 @@ A players table, with a column for name, score, wins, & loses.
 ## Set up and Installation
 1. Fork and clone this repository.
 2. Install dependencies with bundle install.
+3. Run bin/rails server to run server locally.
 
 ## ERD
 ![ERD Diagram](https://i.imgur.com/hKgUTuD.png)
