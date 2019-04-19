@@ -44,7 +44,7 @@ class PlayersController < ProtectedController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_player
-    @player = Player.find(params[:id])
+    @player = current_user.players.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.

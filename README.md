@@ -14,7 +14,7 @@ To view all players, click the leader board and you can see all players and thie
 
 To edit or delete a player, go to the leaderboard, click the magnifing glass on the players score card. Then select edit or delete.
 
-See the routes for information on how CRUD actions were implemented for the rails api.
+See the routes for information on how CRUD actions were implemented for the rails api.=
 
 Enjoy!
 
